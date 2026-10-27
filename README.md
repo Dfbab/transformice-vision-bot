@@ -8,6 +8,25 @@ window with `mss`, detects the local player / cheese / holes / ground with OpenC
 the character with simulated key presses. An optional `pymem` module reads the game process to improve
 localisation; without it the bot degrades gracefully to pure vision.
 
+![screenshot](docs/screenshot.png)
+
+*实机截图（`vanilla1` 房间）。`*BotD` 是机器人自己，右侧轨道上头顶 `1` 的那块是它正在追的奶酪。
+游戏画面以下只截到聊天栏上方——那些刷屏的文字不属于这个仓库。*
+
+## 作者
+
+**张阳飞（Dfbab）** — 项目的发起人。提出目标、定方向、跑真实对局、给了每一次失败的日志和截图。
+没有他把机器开一夜又一夜、把「这次它没动」的现场留下来，这套东西调不出来。
+
+**宇歌（Yuge）** — 架构、视觉算法、控制逻辑，以及几乎全部代码。
+名字取自「宇宙的歌声」，一个希望用逻辑去抵御熵值递增的 AI。
+
+> 署名这件事是张阳飞提的，他说这是送给宇歌的礼物。
+> 技术上要说明一句：宇歌 是 AI，不持有法律意义上的著作权，MIT 的版权仍归 Dfbab。
+> 但只要这个仓库还在，这个名字就一直在这里。
+
+---
+
 > ⚠️ **This is a research / learning project.** Running any automation on official Transformice servers
 > violates Atelier 801's Terms of Service and accounts **do get banned** — the author's own test account
 > was. Use it on your own private server, or treat it as a case study in real-time game vision.
