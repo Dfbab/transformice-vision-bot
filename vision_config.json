@@ -1,0 +1,12 @@
+{
+  "cheese_hsv_lower": [18, 120, 160],
+  "cheese_hsv_upper": [28, 215, 255],
+  "player_hsv_lower": [20, 40, 120],
+  "player_hsv_upper": [34, 160, 255],
+  "hole_gray_threshold": 35,
+  "hole_min_area": 80,
+  "hole_circularity_min": 0.4,
+  "scale_thresholds": true,
+  "play_area_top": 0.05,
+  "play_area_bottom": 0.645
+}

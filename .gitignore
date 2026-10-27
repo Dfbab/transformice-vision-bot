@@ -1,0 +1,24 @@
+# debug artifacts
+*.png
+*.jpg
+*.log
+*.err
+*.npy
+*.npz
+_frames/
+_frames2/
+corpus/
+_diag_*/
+__pycache__/
+*.pyc
+.pid
+.run_pid
+.smoke_pid
+.ab_pid
+.ab_log_name
+.last_base_ts
+
+# build
+build/
+dist/
+*.spec
